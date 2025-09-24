@@ -1,0 +1,16 @@
+{
+  "name": "cashoo-backend-v1",
+  "version": "1.0.0",
+  "description": "CASHOO Backend Phase 1a - Ultra-fast Vercel deployment",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
